@@ -1,0 +1,59 @@
+html{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    height: 100vh;
+    overflow: hidden;
+    margin: unset;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+h1{
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    height: 5vh;
+
+}
+button{
+    background-color: darkgrey;
+    border: none;
+    width: 55px;
+    height: 55px;
+    box-shadow: 5px 5px 10px gray, -5px -5px -10px grey;
+    font-size: 20px;
+    margin-left: 6px;
+    outline: none;
+    font-family: ;
+}
+.keyboard{
+    font-size: 20px;
+}
+.keyboard > .rows {
+    display: none;
+}
+
+
