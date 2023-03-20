@@ -18,7 +18,7 @@ h1{
 }
 
 .keyboard{
-    margin: 160px 0 0 200px;
+    margin: 100px 0 0 240px;
     font-size: 20px;
 }
 .keyboard > .rows {
@@ -45,7 +45,7 @@ border-radius: 20%;
 background-color: white;
 box-shadow: 5px 5px 10px gray, -5px -5px 10px white;
 font-size: 20px;
-margin-left: 5px;
+margin-left: 10px;
 outline: none;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
