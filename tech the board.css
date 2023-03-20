@@ -7,28 +7,6 @@ body {
     overflow: hidden;
     margin: unset;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: blue;
-
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
-}
 h1{
     color: white;
     font-family: "Times New Roman";
@@ -38,24 +16,41 @@ h1{
     height: 5vh;
 
 }
-button{
-    background-color: darkgrey;
-    margin: 10px;
-    border: none;
-    width: 60px;
-    height: 55px;
-    box-shadow: 5px 5px 10px gray, -5px -5px -10px grey;
-    font-size: 20px;
-    margin-left: 6px;
-    outline: none;
-
-}
 
 .keyboard{
+    margin: 160px 0 0 200px;
     font-size: 20px;
 }
 .keyboard > .rows {
     display: none;
+    border: 3px;
+    border-style: solid;
 }
 
+.row{
+width: 100%;
+height: 60px;
+}
+
+.one,.two,.three,.four,.five{
+margin: 10px 0 0 0;
+}
+
+button{
+color: black;
+height: 55px;
+width: 55px;
+border: none;
+border-radius: 20%;
+background-color: white;
+box-shadow: 5px 5px 10px gray, -5px -5px 10px white;
+font-size: 20px;
+margin-left: 5px;
+outline: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:active{
+box-shadow: 1px 1px 2px white, -1px -1px 2px gray;
+}
 
