@@ -1,5 +1,5 @@
 html{
-    background-repeat: no-repeat;
+    background-color: black;
     background-size: cover;
 }
 body {
@@ -37,7 +37,7 @@ margin: 10px 0 0 0;
 }
 
 button{
-color: black;
+color: rgb(1, 1, 1);
 height: 55px;
 width: 55px;
 border: none;
@@ -54,3 +54,42 @@ button:active{
 box-shadow: 1px 1px 2px white, -1px -1px 2px gray;
 }
 
+.delete{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.enter{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.caplock{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.shift{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.shift1{
+    width: 170px;
+    border-radius: 10px;
+}
+
+.tab{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.alt{
+    width: 70px;
+    border-radius: 10px;
+}
+
+.Space{
+    width: 330px;
+    border-radius: 10px;
+}
