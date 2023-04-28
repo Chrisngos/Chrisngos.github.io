@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious cooker</title>
+    <link rel="stylesheet" href="gymproject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div id="page-1" class="scroll-page">
+    <div id="header">
+
+        <div class="flex-container1">
+            <div class="dropdown">
+                <button class="dropbtn"  type="button" onclick="refreshPage()">Hem</button>
+                <script>
+                    function refreshPage(){
+                        window.location.reload();
+                    }
+                </script>
+                <div class="dropdown-content">
+                    <a id="receptall" href="http://localhost:63342/Gymproject/recept.html?_ijt=fle0b4a87eliemo0bjpk74tags">Recept</a>
+                </div>
+            </div>
+
+            <div>
+                <button class="refresh"  type="button" onclick="refreshPage()">
+                    <div class="refresh">
+                        <i class="fa fa-refresh fa-spin" style="font-size:20px"></i>
+                    </div>
+                </button>
+                <script>
+                    function refreshPage(){
+                        window.location.reload();
+                    }
+                </script>
+            </div>
+            <div class="content box">
+                <a href="#section-2">Kontakt</a>
+            </div>
+            <div class="content box">
+                <a href="#section-3">Om</a>
+            </div>
+            <div class="content box">
+            <a href="#footer">Nyheter</a>
+            </div>
+
+            <input id="search" type = "search">
+            <div class ="button">
+                <button id="btn1" onclick="searchThroughRecept()">Sök</button>
+            </div>
+
+            <script>
+                let myText = document.getElementById("search");
+                let btn1 = document.getElementById("btn1");
+
+                myText.addEventListener("keyup", e => {
+                    e.preventDefault();
+                    if (e.key === "Enter") {
+                        console.log(searchThroughRecept())
+                        btn1.click();
+                    }
+                });
+                btn1.addEventListener("click", () => {
+                });
+            </script>
+
+        </div>
+
+
+
+    </div>
+
+    <H1>Välkommen till Delicious site</H1>
+
+
+    <div id="scrollbar">
+        <div id="recept"></div>
+    </div>
+
+
+</div>
+
+<div id="page-2" class="scroll-page">
+
+        <h4>Kontakta oss
+        <p1 id="section-2">Om du har mer frågor eller om du behöver It support, du can kontakta oss genom
+            <br>vår melj deliciouscooker@yahoo.com eller via vår telefon nummer 0700000108.
+            <br> Vi är alltid redo att och vill hjälpa dig 24/7.
+        </p1>
+        </h4>
+
+        <h5>Om oss</h5>
+        <p2 id="section-3">Delicious cooker är här för att hjälpa dig att laga läckra måltider med mindre stress och mer glädje.
+            <br>Det erbjuder recept och matlagningsråd från hemmakockar och professionella kockar.
+            <br>Att hjälpa till att skapa "köksvinster" är vad det handlar om.
+            <br> Recept, tips och måltidsplaner från receptutvecklare, matskribenter, recept- och produkttestare, fotografer och andra kreativa proffs.
+        </p2>
+
+
+    <div id="footer">
+        <span class="footer-span">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-1x"></i>
+            <i class="fa fa-snapchat  fa-1x"></i>
+            <i class="fa fa-whatsapp fa-1x"></i>
+        </span>
+    </div>
+
+</div>
+
+
+<script src="gymproject.html.js"></script>
+</body>
+</html>

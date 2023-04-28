@@ -1,0 +1,12 @@
+body{
+    background-image: url("gym.jpg");
+    background-size: cover;
+}
+
+
+.treceptt{
+    color: #f1f1f1;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}

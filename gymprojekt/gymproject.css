@@ -1,0 +1,228 @@
+* ::-webkit-scrollbar{
+    display: none;
+}
+H1{
+    text-align: center;
+    color: yellowgreen;
+    /*height: 90vh;*/
+}
+
+.flex-container1 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: yellowgreen;
+    background-size: 80px;
+    width: 850px;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.flex-container1 > div {
+    background-color:yellowgreen;
+    width: 200px;
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    align-items: center;
+    line-height: 35px;
+    font-size: 19px;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+
+.dropbtn {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b6b4b467;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(0, 38, 255);
+}
+
+body {
+    margin: auto;
+}
+.scroll-page {
+    position: relative;
+    height: 100vh;
+    scroll-snap-type: x proximity;
+}
+
+#footer{
+    position: absolute;
+    height: 20vh;
+    width: 100vw;
+    background-color: yellowgreen;
+    bottom: 0;
+    font-size: 90px;
+}
+
+#header {
+    top: 0;
+}
+
+#page-1{
+    background-image: url("gym.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#page-2{
+    background-color: white;
+}
+
+h4{
+    color: #259101;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+
+p1{
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    color: #0c0c0c;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    transform: translateX(-50%);
+}
+
+h5{
+    color: #259101;
+    font-size: xxx-large;
+    top: 180px;
+    position: absolute;
+    left: 45%;
+}
+p2{
+    position: absolute;
+    left: 50%;
+    top:330px;
+    color: #0c0c0c;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+
+span.mängd::before {
+    content: "(";
+}
+span.mängd::after {
+    content: ")";
+}
+.ingrediens > span.mängd:not(:last-child)::after {
+    content: "), ";
+}
+#recept {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    color: black;
+    width: 75%;
+    max-height: 70%;
+    overflow-y: scroll;
+}
+
+#recept::-webkit-scrollbar{
+    display: none;
+}
+#recept > div > div {
+    display: block;
+}
+#recept > div {
+    border-style: solid;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 15px;
+}
+.menu {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: 5px;
+}
+
+span.name::after {
+    content: ", ";
+}
+
+button{
+    color: red;
+    background-color: ivory;
+    border-radius: 10px;
+    width: 90%;
+}
+
+i {
+    border: none;
+    color: white;
+    padding: 30px 30px 30px 30px;
+    font-size: 25px;
+}
+a {
+    text-decoration: unset;
+    color: unset;
+}
+.footer-span {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer-span > i {
+    margin: 0 20px
+}
+
+input{
+    border-radius: 9px;
+}
+
+i{
+    color: black;
+}
+
+.refresh{
+    display: contents;
+    padding: 15px;
+}
+
+
